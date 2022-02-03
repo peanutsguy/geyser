@@ -33,3 +33,5 @@ jobs:
         tags: |
          peanutsguy/geyser:latest
          ghcr.io/peanutsguy/geyser:latest
+    - name: PostCleaning
+      uses: AutoModality/action-clean@v1
